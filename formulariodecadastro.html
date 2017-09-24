@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+              
+        <title>Cadastro de Cliente</title>
+
+    </head>
+    <body>
+       <h3>TECWEB</h3>
+        <link rel="stylesheet" href="font.css">
+        <form action="servidor" method="POST">
+        
+            <fieldset  style="width:50%; margin: 0px auto;background:#A5A4A4;box-shadow:0 0 30px #383737;border:0ch;border-radius:15px">
+                <fieldset>
+                    <legend>CADASTRO</legend>
+                    </br>
+                    <fieldset>
+                         <legend>DADOS PESSOAIS</legend>
+                         <label>Nome:</label>
+                         </br>
+                         <input type="text" placeholder="Nome" maxlength="12">
+                        <p>
+                             <label>Data Nascimento:</label>
+                             </br>
+                             <input type="text" placeholder="Data de Nascimento" maxlength="10">
+                        </p>
+                    
+                    </fieldset>
+                    <p>
+                        <fieldset>
+                            <legend>ENDEREÇO</legend>
+                            <label>Rua:</label>
+                            <input type="text"> 
+                            <Label>Número:</Label>
+                            <input type="text">
+                            <Label>Cep :</Label>
+                            <input type="text" width="10px">
+                            </br>
+                            <label>Estado:</label></br>
+                            <select>
+                                <option value="Selecionar">--Selecionar--</option>				
+                                <option value="SP">São Paulo</option>
+                                <option value="RJ">Rio de Janeiro</option>
+                            </select>
+                        </fieldset>
+                    </p>
+                    <p>
+                        <fieldset>
+                            <legend>SEXO: </legend>
+                            <input type="radio" name="opcao" value="m">Masculino
+                            <input type="radio" name="opcao" value="f">Feminino
+                        </fieldset>
+                    </p>
+                    <button type="submit" value="Eviar">Salvar</button>
+                    <button type="reset" value="Reset">Apagar</button>
+                    
+                    
+                </fieldset>
+            </fieldset>
+        
+        </form>
+        
+    </body>
+</html> 
