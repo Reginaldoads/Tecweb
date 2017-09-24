@@ -1,0 +1,33 @@
+fieldset {
+    
+    color: black;
+    width: 95%;
+    background: rgba(71, 70, 70, 0.4);
+    border-radius:8px;
+    box-shadow:0 0 10px #999;
+    border:1px solid #999
+    
+    
+}
+input{
+    border-radius: 3px;
+    border: 0ch;
+    
+}
+
+button{
+    border:1px solid #999;
+	border-radius:3px;
+    box-shadow:0 0 10px #999;
+    color:black;
+    background:#A5A4A4
+    
+}
+h3{
+    text-align: center;
+    text-shadow: black 0.1px 0.1px 5px
+
+}
+body{
+    background: #D6D5D5
+}
